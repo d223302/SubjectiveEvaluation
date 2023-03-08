@@ -74,7 +74,7 @@ for idx, response in raw_result.iterrows():
   if response["Increment"].strip().lower() == "n/a":
     output.append("x")
   elif "not" in response["Increment"].strip().lower():
-    output.append("v")
+    output.append("-")
   else:
     output.append(response["Increment"])
 
