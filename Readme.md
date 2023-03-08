@@ -10,7 +10,7 @@ For the column *Instruction*, we check if the paper provides either the rating s
 For the column *Increment*, we check if the paper uses a 1-point increment or 0.5-point increment in the MOS tests.
 For those we cannot know what increment the paper uses, we put a `x`.
 Some paper just say *"from 1~5"*, but this description is too vague for us to know if it is an 1-increment or a 0.5-increment, so we still put a `x` in this case.
-For the papers that do not conduct a MOS test, we just put a `-` in the *Increment* field.
+For the papers that do not conduct a MOS test, we just put a `v` in the *Increment* field.
 
 
 | Title | Platform | Qualification | Post-filter | Language background | Location | # of raters and rated items | Payment | Instructions | Increment (MOS)|
@@ -109,5 +109,9 @@ For the papers that do not conduct a MOS test, we just put a `-` in the *Increme
 Here is one of the surveys that is used when conducting MOS tests with the students from our college: 
 [Survey example](https://surveyjs.io/published?id=47bdd843-dc28-4477-81f4-2ddf70a13654).
 The link and the survey do not contain any information about the authors.
+
+
 Here is the interface on Mturk that is used for all the experiments except recruiting raters from our college.
+
+
 ![plot](https://github.com/d223302/SubjectiveEvaluation/blob/master/interface.png?raw=true)
