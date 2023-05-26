@@ -2,7 +2,7 @@
 
 ## Full list of surveyed paper
 
-The following table is the 88 paper we survey; all of them are from [INTERSPEECH 2022](https://www.isca-speech.org/archive/interspeech_2022/index.html).
+The following table is the 80 paper we survey; all of them are from [INTERSPEECH 2022](https://www.isca-speech.org/archive/interspeech_2022/index.html).
 In the table, the `v` means that the paper reports the factor, and `x` means that the paper do not report the factor.
 - The column *# of raters and rated items* considers four factors: (1) the total number of unique raters, (2) the number of samples a rater rates, (3) how many raters evaluate a single sample, and (4) how many audio samples in total. 
 If the paper report none of the four factors, we put a `x`; if the paper report all four factors, we put a `v`; if the paper report some but not all the four factors, we put a `△`.
